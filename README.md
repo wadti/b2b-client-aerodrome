@@ -7,6 +7,21 @@
 ![Test](https://github.com/DGAC/nmb2b-client-js/workflows/Build,%20test,%20publish/badge.svg?branch=master)
 [![codecov](https://codecov.io/gh/DGAC/nmb2b-client-js/branch/master/graph/badge.svg)](https://codecov.io/gh/DGAC/nmb2b-client-js)
 
+## Disclaimer!!!
+
+I preety mouch have no idea what I'm doing, this is my first time using GitHub and JS. This repo is a copy of DGACs repo as seen in the links and images below. 
+Things that have been changed:
+
+* Added queryFlightsByAerodrome to functionality
+* Wrote own version of npm package (https://www.npmjs.com/package/b2b-client)
+
+I'll try my best do merge with the original repo at a later time.
+
+---
+
+## Original README
+
+
 Exposes a general purpose Javascript library to interact with NM B2B web services. The idea is to abstract pain points while offering an API that maps the NM B2B WS API.
 
 NM target version: **25.0.0**

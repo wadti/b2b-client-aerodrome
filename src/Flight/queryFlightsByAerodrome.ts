@@ -5,17 +5,17 @@ import { prepareSerializer } from '../utils/transformers';
 import { instrument } from '../utils/instrumentation';
 
 import {
-  FlightListByAirspaceRequest,
-  FlightListByAirspaceReply,
+  FlightListByAerodromeRequest,
+  FlightListByAerodromeReply,
 } from './types';
 
 export {
-  FlightListByAirspaceRequest,
-  FlightListByAirspaceReply,
+  FlightListByAerodromeRequest,
+  FlightListByAerodromeReply,
 } from './types';
 
-type Values = FlightListByAirspaceRequest;
-type Result = FlightListByAirspaceReply;
+type Values = FlightListByAerodromeRequest;
+type Result = FlightListByAerodromeReply;
 
 export type Resolver = (
   values?: Values,
@@ -32,7 +32,7 @@ export default function prepareQueryFlightsByAerodrome(
 
   return instrument<Values, Result>({
     service: 'Flight',
-    query: 'queryFlightsByAirspace',
+    query: 'queryFlightsByAerodrome',
   })(
     (values, options) =>
       new Promise((resolve, reject) => {

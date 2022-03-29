@@ -44,6 +44,11 @@ export {
   FlightRetrievalReply,
 } from './Flight/retrieveFlight';
 
+export {
+  FlightListByAerodromeRequest,
+  FlightListByAerodromeReply,
+} from './Flight/queryFlightsByAerodrome';
+
 // Flow
 export { HotspotListRequest, HotspotListReply } from './Flow/queryHotspots';
 

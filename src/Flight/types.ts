@@ -1175,6 +1175,13 @@ export interface FlightListByAirspaceRequest extends FlightListRequest {
   airspace: AirspaceId;
 }
 
+//new
+
+export interface FlightListByAerodromeRequest extends FlightListRequest {
+  calculationType?: CountsCalculationType;
+  aerodrome: Aerodrome;
+}
+
 export type FlightOrFlightPlan =
   | { flight: Flight }
   | { flightPlan: FlightPlanOrInvalidFiling };
@@ -1236,6 +1243,12 @@ export interface FlightListByLocationReplyData {
 }
 
 export interface FlightListByAirspaceReply extends Reply {
+  data: FlightListByLocationReplyData & FlightListReplyData;
+}
+
+//new
+
+export interface FlightListByAerodromeReply extends Reply {
   data: FlightListByLocationReplyData & FlightListReplyData;
 }
 
