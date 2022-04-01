@@ -1161,7 +1161,7 @@ export interface FlightListRequest {
   trafficWindow?: DateTimeMinutePeriod;
   worstLoadStateAtReferenceLocationType?: CountsCalculationType;
   compareWithOtherTrafficType?: TrafficType;
-  requestedFlightFields?: FlightField[];
+  requestedFlightFields?: FlightField[]; //requestedFlightFields?: FlightField[];
 }
 
 export interface FlightListByLocationRequest extends FlightListRequest {
@@ -1235,7 +1235,7 @@ export interface InvalidFiling {
 }
 
 export interface FlightListReplyData {
-  flights: FlightOrFlightPlan[];
+  flights: FlightOrFlightPlan[]; // //NMSet: ERROR when building npm module
 }
 
 export interface FlightListByLocationReplyData {

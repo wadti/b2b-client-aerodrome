@@ -1,10 +1,10 @@
 {
-  "name": "b2b-client",
-  "version": "0.0.1",
-  "description": "DGAC NM B2B Soap client",
+  "name": "b2b-client-frq",
+  "version": "0.1.0",
+  "description": "FRQ version of DGAC NM B2B Soap Client",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "author": "Benjamin BERET <benjamin.beret@aviation-civile.gouv.fr>",
+  "author": "Sebastian Gabler <sebastian.gabler@frequentis.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
