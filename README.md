@@ -9,7 +9,7 @@
 
 ## Disclaimer!!!
 
-I preety mouch have no idea what I'm doing, this is my first time using GitHub and JS. This repo is a copy of DGACs repo as seen in the links and images below. 
+I preety much have no idea what I'm doing, this is my first time using GitHub and JS. This repo is a copy of DGACs repo as seen in the links and images below. 
 Things that have been changed:
 
 * Added queryFlightsByAerodrome to functionality
